@@ -15,6 +15,7 @@ public class DemoApplication {
     }
 
     public String index(String name) {
+        System.out.println("reset to project init");
         return "hello " + name;
     }
 }
